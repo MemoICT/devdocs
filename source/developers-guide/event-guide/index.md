@@ -612,7 +612,7 @@ events are recommended - if you are not using them, you need to perform the chec
 Technically container events are also global events - but they are specific to Shopware's integration of the Symfony
 dependency injection container. `Enlight_Bootstrap_InitResource_SERVICE` will be emitted, if the service with the
 name `SERVICE` was requested. In your event subscriber just return an instance of that class.
-`Enlight_Bootstrap_AfterInitResource_SERIVCE` is emitted, when `SERVICE` was just loaded by the DI container. You can
+`Enlight_Bootstrap_AfterInitResource_SERVICE` is emitted, when `SERVICE` was just loaded by the DI container. You can
 use this event to decorate / replace that SERVICE with your own one.
 
 ## Some examples
