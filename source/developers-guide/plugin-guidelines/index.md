@@ -395,6 +395,8 @@ this, the basic components that need to be implemented are the following:
    call to the external service
 2. Shopware Backend module (button) which sends an AJAX-Request to the Backend
    controller
+   
+   This example is based on shopware 5.6
 
 `SwagExample/Resources/services.xml`:
 ```xml
